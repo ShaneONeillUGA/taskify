@@ -122,10 +122,15 @@ router.put('/newMember/user/:userId', bodyParser.json(), async (req, res) => {
         if (confirmPassword !== password) {
             return res.status(400).json({msg: 'Passwords do not match'});
         }
-        const existingUser = await user.findOne({ email });
-        if (existingUser) {
+        const existingUserEmail = await user.findOne({ email });
+        if (existingUserEmail) {
             return res.status(400).json({msg: 'User with same email already exists'});
         }
+        const existingUserPhone = await user.findOne({ phone });
+        if (existingUserPhone) {
+          return res.status(400).json({msg: 'User with same phone number already exists'});
+        }
+
         const hashedPassword = await bcryptjs.hash(password, 8);
         const newUser = new User({email, phone, password: hashedPassword, first_name, last_name});
 
