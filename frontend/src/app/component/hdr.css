@@ -1,0 +1,71 @@
+.hrdbanHome {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+.banhafHome {
+    display: flex;
+    margin-left: 10px;
+    
+    
+}
+
+.b1Home {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fbf2f2;
+}
+
+.b1Home img {
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+.b2Home {
+    border-radius: 25%;
+    font-size: 50px;
+    
+    margin-right: 10px;
+    margin-top: -15px;
+    
+    
+    
+}
+
+.b2Home button {
+    width: 80px;
+    height: 25px;
+    background-color: #fbf2f2;
+    color: black;
+    border-radius: 5px;
+    
+    
+}
+
+.b2Home2 {
+    border-radius: 25%;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -15px;
+    
+    
+    
+}
+
+.b2Home2 button {
+    width: 80px;
+    height: 25px;
+    background-color: #fbf2f2;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+    
+}

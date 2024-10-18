@@ -1,0 +1,55 @@
+.beg {
+    background-color: #fbf2f2;
+    height: 990px;
+    width: 12%;
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Times New Roman", Times, serif;
+    
+
+}
+
+.titleFirstName {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.beg img {
+    height: 17%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border-radius: 100px;
+    margin-bottom: 5%;
+}
+
+.dir {
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fbf2f200;
+    color: black;
+    width: 100px;
+    height: 50px;
+    border-color: #fbf2f200;
+    border-radius: 50%;
+    font-size: 20px;
+   
+}
+
+.dir:hover {
+    background-color: gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+}
+
+.ppi {
+    margin-left: auto;
+    margin-right: auto;
+    
+}

@@ -1,0 +1,337 @@
+
+body {
+    background-color: #000000;
+    filter: brightness(100%);
+    color: black;
+}
+
+.lead {
+    display: flex;
+    background-color: white;
+    margin: .5%;
+    border-radius: 25px;
+    
+}
+
+
+
+.beg {
+    background-color: #fbf2f2;
+    height: 990px;
+    width: 13%;
+    text-align: center;
+    border-radius: 25px;
+    
+    
+
+}
+
+.beg img {
+    height: 17%;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 20%;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle {
+    
+    
+    background-color: rgb(255, 255, 255);
+    height: 950px;
+    width: 74%;
+    
+ 
+}
+
+.dir {
+    margin: 5%;
+}
+
+
+
+.last {
+    background-color: #fbf2f2;
+    height: 950px;
+    width: 13%;
+    text-align: center;
+    border-radius: 25px;
+    margin: .5%;
+    height: 970px;
+    
+}
+
+.name {
+    font-size: 30px;
+}
+
+#monthDropdown {
+    text-align: center;
+    width: 75px;
+    color: black;
+    background-color: white;
+}
+
+#yearDropdown {
+    text-align: center;
+    width: 75px;
+    color: black;
+    background-color: white;
+}
+
+.apex {
+    display: flex;
+    justify-content: center;
+}
+
+.lol {
+    background-color: #000000;
+    width: 1px;
+}
+
+.upcoming {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5px;
+}
+
+.dateorg {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 100px;
+    margin-right: 0;
+}
+
+.dateorg1 {
+    background-color: #d9d9d9;
+    text-align: center;
+    width: 170px;
+    margin-left: 3px;
+    margin-top: 5px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+
+
+.middle1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbf2f2;
+    width: 98%;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+ 
+}
+
+.leftB {
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.addpro {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    text-align: center;
+    
+    
+    border-radius: 30px;
+    
+}
+
+
+
+.addpro button {
+    height: 50px;
+    width: 250px;
+    background-color: #00000000;
+    border-color: #00000000;
+    border-radius: 30px;
+}
+
+.dirDemo {
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fbf2f200;
+    color: black;
+    width: 100px;
+    height: 50px;
+    border-color: #fbf2f200;
+    border-radius: 50%;
+    font-size: 20px;
+   
+}
+
+.dirDemo:hover {
+    background-color: gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+}
+
+.addpro button:hover {
+    
+    background-color: #5a00ec;
+   
+}
+
+
+.greet {
+    font-size: 40px;
+}
+
+.middle2 {
+    background-color: #fbf2f2;
+    height: 300px;
+    width: 98%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.middle3 {
+    display: flex;
+    
+    height: 570px;
+    width: 98%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lol1 {
+    background-color: #000000;
+    width: 2px;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ToDo {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+    width: 50%;
+
+
+}
+
+.ToDo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    width: 50%;
+
+}
+
+.fcol {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #fbf2f2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hou {
+    margin-top: 5px;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.fcol1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #fbf2f2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hou1 {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.spac {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.spac1 {
+    text-align: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.bold {
+    font-size: 20px;
+}
+
+.formz {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lex {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.lex2 {
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+}
+
+.real {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+

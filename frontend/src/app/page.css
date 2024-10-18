@@ -1,0 +1,31 @@
+.HomePageText {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    
+}
+
+.HomePageText h1{
+    font-size: 50px;
+}
+
+.HomePageText h3 {
+    font-size: 20px;
+}
+
+.HomePageMainButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.HomePageMainButtons button {
+    
+    height: 60px;
+    width: 120px;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}

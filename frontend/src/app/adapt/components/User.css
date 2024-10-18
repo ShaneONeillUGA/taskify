@@ -1,0 +1,32 @@
+.list {
+  
+  width: 270px;
+  height: 280px;
+  background-color: inherit;
+  border-radius: 50px;
+}
+
+.old {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.old2 {
+  text-align: center;
+  
+}
+
+.old3 {
+  display: flex;
+  justify-content: right;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.bor {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: white;
+}

@@ -1,0 +1,27 @@
+.hrdbanz {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: white;
+    
+}
+
+.banhafz {
+    display: flex;
+    margin-left: 10px;
+    
+}
+
+.b1z {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fbf2f2;
+}
+.b2z {
+    border-radius: 25%;
+    background-color: orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fbf2f2;
+}

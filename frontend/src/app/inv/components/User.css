@@ -1,0 +1,69 @@
+.listinv {
+  
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  border-radius: 50px;  
+  
+}
+
+.oldinv {
+  text-align: center;
+  font-size: 30px;
+}
+
+.old2inv {
+  text-align: center;
+  
+}
+
+.old3inv {
+  display: flex;
+  justify-content: right;
+}
+
+.old3inv button {
+  margin-right: 25px;
+  margin-top: 10px;
+  color: black;
+  background-color: #ffffff00;
+  border-color: #ffffff00;
+}
+
+.borinv {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: black;
+}
+
+.member-pic-containerinv {
+  
+  
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member-pic-containerinv img {
+  width: 100px; 
+  height: 100px; 
+  
+  object-fit: cover; 
+  object-position: top; 
+  overflow: hidden; 
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+.member-roleinv {
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+}

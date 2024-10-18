@@ -1,0 +1,83 @@
+.signupBox {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+    height: 550px;
+    width: 400px;
+    margin-top: 85px;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+
+.bottomBut {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+}
+
+.buttonCreate {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.signupBox img {
+    
+    margin-bottom: 10px;
+}
+
+.inputCreate {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputCreate input {
+    width: 85%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alreadyBut {
+    margin-bottom: 20px;
+}
+
+.LoginBut {
+    color: blue;
+}
+
+.LoginBut:hover {
+    color: purple;
+}
+
+.lineSignup {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 85%;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.bottomSpaceSign {
+    margin-bottom: 20px;
+}
+
+.createAccounth2 {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.logocontainer {
+    margin-top: 60px;
+}

@@ -1,0 +1,215 @@
+body {
+    background-color: #000000;
+    filter: brightness(100%);
+    color: black;
+}
+
+.leadSetting {
+    display: flex;
+    background-color: white;
+    margin: .5%;
+    border-radius: 25px;
+    height: 990px;
+}
+
+.middleSetting {
+    display: flex;
+    width: 86%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.middle1Setting {
+    height: 50px;
+    background-color: #fbf2f2;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+.settingText {
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.middle2Setting {
+    display: flex;
+    background-color: #fbf2f2;
+    margin-top: 20px;
+    height: 945px;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+
+.profileSetting {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.imgSetting {
+    padding: 10px;
+    box-shadow: 0 0 5px #ffdfdf;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+
+}
+
+.imgSetting .topSetting {
+    text-align: center;
+}
+
+.imgSetting p {
+    
+    font-weight: bold;
+    color: #0086fe;
+}
+
+.imgSetting .dragSetting2 {
+    font-weight: bold;
+    color: #ff3ecf;
+}
+
+.imgSetting .dragSetting2:hover {
+    font-weight: bold;
+    color: #9c00e4;
+}
+
+.imgSetting button {
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 8px 13px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #0086fe;
+}
+
+.imgSetting .drag-area{
+    height: 300px;
+    border-radius: 5px;
+    border: 2px dashed #0086fe;
+    color: #0086fe;
+    background: #f4f3f9;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-top: 10px;
+}
+
+.imgSetting .drag-area .visible{
+    font-size: 18px;
+}
+
+.imgSetting .select {
+    color: #5856ad;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.imgSetting .select:hover {
+    opacity: 0.6;
+}
+
+.card .containerSetting {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.imgSetting .containerSetting .imageSetting {
+    width: 80px;
+    margin-right: 5px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.imageSetting .containerSetting .imageSetting img {
+    width: 10px;
+    height: 10px;
+    
+}
+
+.imgSettingUp {
+    width: 200px;
+    height: 100px;
+}
+
+.imageSetting .containerSetting .imageSetting span {
+    position: absolute;
+    top: -2px;
+    right: 9px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.imageSetting input ,
+.imageSetting .drag-area .on-drop,
+.imageSetting .drag-area.dragover .visible {
+    display: none;
+}
+
+.file {
+    display: none;
+}
+
+.delete {
+    z-index: 999;
+    color: #0086fe;
+}
+
+.dragSetting {
+    margin-top: 60px;
+    text-align: center;
+  
+}
+
+.dragSetting2 {
+    margin-top: 60px;
+    text-align: center;
+  
+}
+
+.InputBarSetting {
+    width: 100%;
+    background-color: gray;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.middle3Setting {
+    color: black;
+    margin-top: 10px;
+    width: 600px;
+    
+}
+
+.buttonSettingSubmit {
+    color: white;
+    background-color: black;
+    border-radius: 15%;
+    width: 60px;
+}
+

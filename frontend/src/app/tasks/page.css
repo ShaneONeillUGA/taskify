@@ -1,0 +1,191 @@
+
+
+body {
+    background-color: #000000;
+    filter: brightness(100%);
+    color: black;
+}
+
+.pagerDash {
+    display: flex;
+    background-color: white;
+    margin: .5%;
+    border-radius: 25px;
+    
+}
+
+.firstDash {
+    background-color: #fbf2f2;
+    height: 970px;
+    width: 13%;
+    text-align: center;
+    border-radius: 25px;
+    
+
+}
+
+.realDash {
+    /*
+    display: grid;
+    grid-template-columns: auto auto auto auto;*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+.middlezDash {
+    
+    background-color: rgb(255, 255, 255);
+    height: 970px;
+    width: 74%;
+    text-align: center;
+ 
+}
+
+.lastDashDash {
+    background-color: #fbf2f2;
+    
+    height: 970px;
+    width: 13%;
+    text-align: center;
+    border-radius: 25px;
+    margin: .5%;
+    
+}
+
+
+
+.middle11Dash {
+    background-color: #fbf2f2;
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+ 
+}
+
+.middle22Dash {
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin: 1%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+ 
+}
+
+.sortDash {
+    margin-left: 1%;
+    background-color: #fbf2f2;
+    width: 5%;
+    border-radius: 15px;
+    margin-right: 2%;
+}
+
+
+
+.hrDash {
+    border-color: black;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 40%;
+}
+
+
+
+
+.realDash {
+    /*display: grid;
+    grid-template-columns: 25% 25% 25% 25%;*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    gap: 20px;
+}
+
+.formzDash {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lexzDash {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.lex2zDash {
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+   
+    
+}
+
+
+
+
+.bordssDash {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    
+}
+
+.bords11Dash {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.bords22Dash {
+    width: 160px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.bords22Dash:hover {
+    background-color: purple;
+}
+
+.middle33Dash {
+    background-color: #fbf2f2;
+    height: 860px;
+    width: 98%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto; /* Enables vertical scrolling if content exceeds max-height */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.project-select {
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+    color: inherit; /* inherit font color from h1 */
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none; /* Remove default styling for Safari */
+    cursor: pointer;
+    padding: 0 5px;
+  }
+  
+  .project-select:focus {
+    outline: none;
+  }
+
+
+
+
+

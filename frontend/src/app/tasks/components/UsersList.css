@@ -1,0 +1,21 @@
+.usersdash {
+    /*display: grid;*/
+    background-color: white;
+  }
+  
+  .usersdash ul {
+    
+    list-style: none;
+    padding: 1rem;
+    
+  }
+  
+  .usersdash li {
+   
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    
+  }
+
+  

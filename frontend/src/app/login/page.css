@@ -1,0 +1,76 @@
+.bodyLogin {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+    height: 500px;
+    width: 400px;
+    margin-top: 85px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.LoginHeader {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.loginInput {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginInput input {
+    width: 85%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomSpace {
+    margin-bottom: 20px;
+}
+
+.loginCreate {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.SignupLink {
+    margin-bottom: 20px;
+}
+
+.SignupBut {
+    color: blue;
+}
+
+.SignupBut:hover {
+    color: purple;
+}
+
+.bodyLogin img {
+    margin-bottom: 10px;
+}
+
+.BottomButton2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+}
+
+.lineLogin {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 85%;
+    background-color: black;
+    margin-bottom: 20px;
+}

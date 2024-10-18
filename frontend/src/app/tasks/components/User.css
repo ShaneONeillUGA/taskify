@@ -1,0 +1,49 @@
+.list11 {
+  
+  width: auto;
+  height: auto;
+  background-color: #fbf2f2;
+  border-radius: 50px;
+  padding-bottom: 15px;
+}
+
+.exit1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.exit1 button {
+  height: 30px;
+  background-color: #fbf2f200;
+  border-color: #fbf2f200;
+  color: black;
+}
+
+.old11 {
+  
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 5px;
+  
+}
+
+.old21 {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.bor1 {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.old1 {
+  font-size: 2rem;
+}
